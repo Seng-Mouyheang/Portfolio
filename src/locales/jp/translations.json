@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "について",
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "contact": "お問い合わせ"
+  },
+  "home": {
+    "name": "セン　ムウヒエン",
+    "title": "フロントエンド開発者・UI/UXデザイナー志望",
+    "subtitle": "簡単で美しいウェブアプリケーションの設計を制作するのが好きです。新しい技術を探求し、プログラミングの知識を広げることに意欲的です。",
+    "cv": "履歴書をダウンロード",
+    "contact": "お問い合わせ"
+  },
+  "title": {
+    "about": "自己紹介",
+    "skills": "スキル・使用技術",
+    "projects": "制作実績"
+  },
+
+  "about": {
+    "description": "初めまして、ムウヒエンと申しいます。アメリカン大学のプノンペン（AUPP）でコンピュータサイエンスを専攻している学部生です。フロントエンド開発と人工知能に強い関心があります。\n\n問題解決力や論理的思考力、そして創造性を高めるために、短いコードを書いて練習することを楽しんでいます。また、新しい技術を継続的に学び、自分のスキルを向上させ、意義のある影響力のあるプロジェクトに貢献したいと考えています。\n\n現在は、プロジェクトやインターンシップ、共同開発を通して、実務経験を積む機会を探しています。",
+    "subtitle": {
+        "description": "自己紹介",
+        "education": "学歴",
+        "interests": "興味・関心"
+    },
+    
+    "education": {
+        "aupp": {
+            "title": "アメリカン大学のプノンペン",
+            "location": "プノンペン・カンボジア",
+            "year": "2023 - 現在",
+            "degree": "情報技術マネジメント学士"
+        },
+        "fhsu": {
+            "title": "フォートヘイズ州立大学 (二重学位プログラム)",
+            "location": "カンザス・アメリカ",
+            "year": "2023 - 現在",
+            "degree": "コンピュータサイエンス学士"
+        },
+        "hs": {
+            "title": "トゥールトムポン高校",
+            "location": "プノンペン・カンボジア",
+            "year": "2012 - 2022",
+            "degree": "バカロレア試験 修了証書"
+        }
+    },
+    "interests": ["ウェブ開発・UI/UXデザイン", "グラフィック・ロゴデザイン", "写真・デジタルアート", "音楽・アウトドア活動"],
+    "email": "sengmouyheang2207@gmail.com",
+    "phone": "+ (855) 77 959 401",
+    "location": "プノンペン・カンボジア"
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "気分トラッカー",
+      "description": "ユーザーが気分・睡眠・水分摂取・運動・ソーシャル活動を記録し、精神衛生の状態を管理できる使いやすいプラットフォームです。",
+      "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+      "link": "https://mseng2.infprojects.fhsu.edu/blumi/"
+    },
+    {
+      "id": 2,
+      "title": "やることリストアプリケーション",
+      "description": "タスクの作成・編集・削除・フィルタリングができる簡単でミニマルなタスク管理アプリケーションです。",
+      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "link": "https://todo-list-application-30a95.web.app/"
+    },
+    {
+      "id": 3,
+      "title": "ナンバープレート認識システム",
+      "description": "カンボジアの車両ナンバープレートで番号と地域情報を読み取る簡単なアプリケーションです。",
+      "tech": ["Python", "API連携", "Streamlit"],
+      "github": "https://github.com/Seng-Mouyheang/Cambodia_Liscense_Plate_Recognition"
+    },
+    {
+      "id": 4,
+      "title": "ポートフォリオ",
+      "description": "学歴、スキル、プロジェクト、興味・関心を表示するためのシンプルなポートフォリオです。",
+      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "link": "#",
+      "github": "https://github.com/Seng-Mouyheang/Portfolio"
+    }
+  ],
+
+  "skills": [
+    {
+      "title": "フロントエンド開発",
+      "icon": "Globe",
+      "colorClasses": {
+        "dark": "text-blue-600",
+        "light": "text-black"
+      },
+      "percentageColorClasses": {
+        "dark": "text-blue-400",
+        "light": "text-black"
+      },
+      "barGradientClasses": {
+        "dark": "from-blue-600 to-blue-400",
+        "light": "from-black to-zinc-400"
+      },
+      "gradients": {
+        "dark": "from-[#56D364] to-blue-600",
+        "light": "from-black via-zinc-500 to-zinc-200"
+      },
+      "skills": [
+        { "name": "React", "level": 75 },
+        { "name": "HTML5 & CSS3", "level": 85 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Tailwind CSS", "level": 70 }
+    ]
+    },
+    {
+      "title": "データベース・ツール",
+      "icon": "Database",
+      "colorClasses": {
+        "dark": "text-green-400",
+        "light": "text-black"
+      },
+      "percentageColorClasses": {
+        "dark": "text-green-400",
+        "light": "text-black"
+      },
+      "barGradientClasses": {
+        "dark": "from-green-600 to-green-400",
+        "light": "from-black to-zinc-400"
+      },
+      "gradients": {
+        "dark": "from-[#56D364] to-[#e88066]",
+        "light": "from-black via-zinc-400 to-zinc-200"
+      },
+      "skills":[
+        { "name": "MySQL", "level": 75 },
+        { "name": "Postgre SQL", "level": 75 },
+        { "name": "Git", "level": 85 },
+        { "name": "Github", "level": 85 }
+        ]
+    },
+    {
+      "title": "プログラミング言語",
+      "icon": "Cog",
+      "colorClasses": {
+        "dark": "text-purple-400",
+        "light": "text-black"
+      },
+      "percentageColorClasses": {
+        "dark": "text-purple-400",
+        "light": "text-black"
+      },
+      "barGradientClasses": {
+        "dark": "from-purple-600 to-purple-400",
+        "light": "from-black to-zinc-400"
+      },
+      "gradients": {
+        "dark": "from-purple-400 to-[#e88066]",
+        "light": "from-black via-zinc-500 to-zinc-300"
+      },
+      "skills": [
+        { "name": "Python", "level": 85 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Java", "level": 75 },
+        { "name": "C++", "level": 75 }
+      ]
+    }
+  ],
+  
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "一緒にプロジェクトを進めましょう",
+    "name": "名前",
+    "nameholder": "名前",
+    "email": "メール",
+    "emailholder": "あなた@email.com",
+    "subject": "件名",
+    "subjectholder": "プロジェクトのお問い合わせ",
+    "message": "メッセージ",
+    "send": "お問い合わせ",
+    "status": "送信中...",
+    "success": "ありがとうございます。メッセージが正常に送信されました!",
+    "error": "エラーが発生しました。もう一度お試しください。"
+  },
+
+  "footer": {
+    "message": "または、直接ご連絡ください",
+    "email": "sengmouyheang2207@gmail.com",
+    "phone": "+ (855) 77 959 401",
+    "copyright": "My Portfolio. All rights reserved."
+  }
+}

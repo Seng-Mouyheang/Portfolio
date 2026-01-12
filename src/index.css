@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better mobile scrolling */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Better button tap targets on mobile */
+@media (max-width: 640px) {
+  button, 
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Improve form inputs on mobile */
+@media (max-width: 640px) {
+  input, 
+  textarea {
+    font-size: 16px; /* Prevents iOS zoom */
+  }
+}
+
+@layer base {
+  :root {
+    /* Light theme variables */
+    --color-bg: #f8fafc;
+    --color-card: #ffffff;
+    --color-text: #1e293b;
+    --color-text-secondary: #64748b;
+    --color-border: #e2e8f0;
+    --color-primary: #7c3aed;
+    --color-primary-hover: #6d28d9;
+  }
+
+  [data-theme="dark"] {
+    /* Dark theme variables */
+    --color-bg: #0d1117;
+    --color-card: #161b22;
+    --color-text: #f1f5f9;
+    --color-text-secondary: #94a3b8;
+    --color-border: #30363d;
+    --color-primary: #b384f9;
+    --color-primary-hover: #9866e3;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+}

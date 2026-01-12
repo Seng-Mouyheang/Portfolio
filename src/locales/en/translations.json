@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "name": "Seng Mouyheang",
+    "title": "Aspiring Front-end Developer & UI/UX Designer",
+    "subtitle": "Likes to create beautiful simplistic web applications design. Enthusiastic in exploring new technologies and expanding programming knowledge.",
+    "cv": "Download CV",
+    "contact": "Get In Touch"
+  },
+
+  "title": {
+    "about": "About Me",
+    "skills": "Skills & Technologies",
+    "projects": "My Projects"
+  },
+
+  "about": {
+    "description": "Hello, I'm Mouyheang! I’m an undergraduate Computer Science student at the American University of Phnom Penh with a strong interest in front-end development and artificial intelligence.\n\nI enjoy writing short code snippets to practice problem-solving concepts and enhance my logical thinking and creativity. I’m motivated to continuously learn new technologies and improve my skills in order to contribute to meaningful and impactful projects.\n\nCurrently, I’m looking for opportunities to gain real-world experience through projects, internships, and collaborative work.",
+    "subtitle": {
+        "description": "Description",
+        "education": "Education",
+        "interests": "Interests"
+    },
+    
+    "education": {
+        "aupp": {
+            "title": "American University of Phnom Penh",
+            "location": "Phnom Penh, Cambodia",
+            "year": "2023 - Present",
+            "degree": "Bachelor of Information Technology Management"
+        },
+        "fhsu": {
+            "title": "Fort Hays State University (Dual Degree Program)",
+            "location": "Kansas, United States",
+            "year": "2023 - Present",
+            "degree": "Bachelor of Science in Computer Science"
+        },
+        "hs": {
+            "title": "Toul Tum Poung High School",
+            "location": "Phnom Penh, Cambodia",
+            "year": "2012 - 2022",
+            "degree": "Diploma of Baccalaureate Certificate"
+        }
+    },
+    "interests": ["Web Development & UI/UX Design", "Graphic & Logo Design", "Photography & Digital Art", "Music & Outdoor Activities"],
+    "email": "sengmouyheang2207@gmail.com",
+    "phone": "+ (855) 77 959 401",
+    "location": "Phnom Penh, Cambodia"
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Mood Tracker",
+      "description": "A cozy, user-friendly platform designed to help users monitor their mental well-being through mood, sleep, hydration, exercise, and social activity tracking.",
+      "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+      "link": "https://mseng2.infprojects.fhsu.edu/blumi/"
+    },
+    {
+      "id": 2,
+      "title": "To do List Application",
+      "description": "A simplicit minimal task management application that allows user to manage and keep track of their task at hands by creating, editting, deleting, and filtering tasks.",
+      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "link": "https://todo-list-application-30a95.web.app/"
+    },
+    {
+      "id": 3,
+      "title": "Liscense Plate recognition",
+      "description": "A simple application that read the number and region on the liscense plate of Cambodia vehicle's plate.",
+      "tech": ["Python", "API Integration", "Streamlit"],
+      "github": "https://github.com/Seng-Mouyheang/Cambodia_Liscense_Plate_Recognition"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio",
+      "description": "A simple portfolio for displaying my academic background, skills, projects, and interests.",
+      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "link": "#",
+      "github": "https://github.com/Seng-Mouyheang/Portfolio"
+    }
+  ],
+
+  "skills": [
+    {
+      "title": "Frontend Development",
+      "icon": "Globe",
+      "colorClasses": {
+        "dark": "text-blue-600",
+        "light": "text-black"
+      },
+      "percentageColorClasses": {
+        "dark": "text-blue-400",
+        "light": "text-black"
+      },
+      "barGradientClasses": {
+        "dark": "from-blue-600 to-blue-400",
+        "light": "from-black to-zinc-400"
+      },
+      "gradients": {
+        "dark": "from-[#56D364] to-blue-600",
+        "light": "from-black via-zinc-500 to-zinc-200"
+      },
+      "skills": [
+        { "name": "React", "level": 75 },
+        { "name": "HTML5 & CSS3", "level": 85 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Tailwind CSS", "level": 70 }
+      ]
+    },
+    {
+      "title": "Database & Tools",
+      "icon": "Database",
+      "colorClasses": {
+        "dark": "text-green-400",
+        "light": "text-black"
+      },
+      "percentageColorClasses": {
+        "dark": "text-green-400",
+        "light": "text-black"
+      },
+      "barGradientClasses": {
+        "dark": "from-green-600 to-green-400",
+        "light": "from-black to-zinc-400"
+      },
+      "gradients": {
+        "dark": "from-[#56D364] to-[#e88066]",
+        "light": "from-black via-zinc-400 to-zinc-200"
+      },
+      "skills": [
+        { "name": "MySQL", "level": 75 },
+        { "name": "Postgre SQL", "level": 75 },
+        { "name": "Git", "level": 85 },
+        { "name": "Github", "level": 85 }
+      ]
+    },
+    {
+      "title": "Programming Languages",
+      "icon": "Cog",
+      "colorClasses": {
+        "dark": "text-purple-400",
+        "light": "text-black"
+      },
+      "percentageColorClasses": {
+        "dark": "text-purple-400",
+        "light": "text-black"
+      },
+      "barGradientClasses": {
+        "dark": "from-purple-600 to-purple-400",
+        "light": "from-black to-zinc-400"
+      },
+      "gradients": {
+        "dark": "from-purple-400 to-[#e88066]",
+        "light": "from-black via-zinc-500 to-zinc-300"
+      },
+      "skills": [
+        { "name": "Python", "level": 85 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Java", "level": 75 },
+        { "name": "C++", "level": 75 }
+      ]
+    }
+  ],
+
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's work together",
+    "name": "Name",
+    "nameholder": "Name",
+    "email": "Email",
+    "emailholder": "your@email.com",
+    "subject": "Subject",
+    "subjectholder": "Project inquiry",
+    "message": "Message",
+    "send": "Get In Touch",
+    "status": "Sending...",
+    "success": "Thank you! Your message has been sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "message": "Or reach out directly:",
+    "email": "sengmouyheang2207@gmail.com",
+    "phone": "+ (855) 77 959 401",
+    "copyright": "My Portfolio. All rights reserved."
+  }
+}
